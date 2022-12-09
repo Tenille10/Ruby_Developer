@@ -13,5 +13,4 @@ response = Net::HTTP.start('reqres.in', use_ssl: true) do |http|#utilizou o mét
 end
  
 puts response.code
-puts responde.message
 puts response.body
